@@ -44,7 +44,7 @@ export default function ProfilePage() {
                             </div>
                             <div className='h-6' />
                             {/* Map coordinates details of current user */}
-                            <img alt='map' src={mapImage} className='w-full h-96 bg-red-200 rounded-2xl' />
+                            <img alt='map' src={mapImage} className='w-full h-96 rounded-2xl' />
                             <UserMapCoordinates
                                 latitude={currentUser?.address?.geo?.lat}
                                 longitude={currentUser?.address?.geo?.lng}
