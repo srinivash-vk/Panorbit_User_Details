@@ -72,7 +72,7 @@ export default function SideBar() {
                     </>
                 }
             </div>
-            {messageBoxVisible && <div className={`absolute -bottom-0 right-1/4 ${!clickDownArrow ? 'h-2/5' : 'h-[3.8]'} w-[23rem] rounded-t-2xl border-t border-r border-l border-blue-600 bg-blue-600`}>
+            {messageBoxVisible && <div className={`overflow-hidden absolute -bottom-0 right-1/4 ${!clickDownArrow ? 'h-2/5' : 'h-[3.8]'} w-[23rem] rounded-t-2xl border-t border-r border-l border-blue-600 bg-blue-600`}>
                 <MessageHeader
                     clickDownArrow={clickDownArrow}
                     onClickDown={() => { setClickDownArrow(true) }}
@@ -81,7 +81,7 @@ export default function SideBar() {
                     chatUserName={chatUser?.name}
                     chatUserImage={chatUser?.profilepicture}
                 />
-                {!clickDownArrow && <div className='h-[20.8rem] w-full bg-white'>
+                {!clickDownArrow && <div className='overflow-hidden h-[20.8rem] w-full bg-white'>
                     <MessageBody />
                 </div>
                 }
