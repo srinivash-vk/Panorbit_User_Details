@@ -30,5 +30,4 @@ To run this project:
 
 ![messageBox_hidden](https://user-images.githubusercontent.com/67652658/224637062-8e2a4d37-df43-472c-bbd3-63928fb863c2.png)
 
-<a href="panorbit-user-details-srinivash-vk.vercel.app"><img src="![landing_page](https://user-images.githubusercontent.com/67652658/224636925-604d8b15-f928-4add-aee4-2310e237db56.png)" 
-alt=" width="240" height="180" /></a>
+<a href="panorbit-user-details-srinivash-vk.vercel.app"></a>
