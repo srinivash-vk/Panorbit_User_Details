@@ -32,5 +32,5 @@ To run this project:
 
 # Demo
 
-Click [here](panorbit-user-details-srinivash-vk.vercel.app) to visit. 
+[a link]panorbit-user-details-srinivash-vk.vercel.app)
 
