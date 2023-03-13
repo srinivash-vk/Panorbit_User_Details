@@ -4,8 +4,8 @@ To run this project:
 
 # To install dependencies 
 
-'yarn install'
+`yarn install`
 
 # To run
 
-'yarn start'
+`yarn start`
