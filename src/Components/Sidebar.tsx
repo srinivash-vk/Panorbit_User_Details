@@ -59,7 +59,7 @@ export default function SideBar() {
                 <Outlet />
             </section>
             {/* chatBox */}
-            <div className={`absolute -bottom-0 ring-1 ring-blue-600 right-16 ${chatUserListVisible ? 'h-1/2' : 'h-12'}  w-80 rounded-t-2xl bg-blue-600`}>
+            <div className={`absolute -bottom-0 ring-1 ring-blue-600 overflow-hidden right-16 ${chatUserListVisible ? 'h-1/2' : 'h-12'}  w-80 rounded-t-2xl bg-blue-600`}>
                 <ChatHeader
                     chatUserListVisible={chatUserListVisible}
                     onClickUp={() => { setChatUserListVisible(true) }}
