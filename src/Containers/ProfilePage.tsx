@@ -14,7 +14,7 @@ export default function ProfilePage() {
 
     return (
         <>
-            <div className='flex flex-col h-full w-full'>
+            <div className='flex flex-col overflow-hidden h-full w-full'>
                 <NavBar pageTitle='Profile' />
                 <div className='flex flex-row pt-10 h-full w-full'>
                     <div className='flex flex-col border-r-2 items-center p-5 gap-y-5 h-full w-[50rem]'>

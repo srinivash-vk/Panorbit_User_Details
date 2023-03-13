@@ -21,7 +21,8 @@ export default function SideBar() {
     }
 
     return (
-        <div className='h-screen w-screen flex flex-row p-5 pr-16'>
+        <div className='h-screen w-screen flex flex-row p-5 pr-16 overflow-hidden'>
+            {/* sidebar content */}
             <section className='px-10 h-full w-[20rem] flex flex-col justify-center items-start rounded-3xl bg-gradient-to-t from-purple-700 to-blue-700'>
                 <div className="flex flex-row">
                     <div className="flex flex-col">
@@ -52,14 +53,12 @@ export default function SideBar() {
                     {location.pathname.includes('todo') && <img src={PageIndicator} alt='todo' />}
                 </div>
 
-                {/* <NavLink to={'/s/profile'} className={(sideBarList) => sideBarList.isActive ? sideBarTextStyle.active : sideBarTextStyle.inActive}>Profile</NavLink>
-                <NavLink to={'/s/posts'} className={(sideBarList) => sideBarList.isActive ? sideBarTextStyle.active : sideBarTextStyle.inActive}>Posts</NavLink>
-                <NavLink to={'/s/gallery'} className={(sideBarList) => sideBarList.isActive ? sideBarTextStyle.active : sideBarTextStyle.inActive}>Gallery</NavLink>
-                <NavLink to={'/s/todo'} className={(sideBarList) => sideBarList.isActive ? sideBarTextStyle.active : sideBarTextStyle.inActive}>ToDo</NavLink> */}
             </section>
+            {/* Pages */}
             <section className='w-full h-full py-5'>
                 <Outlet />
             </section>
+            {/* chatBox */}
             <div className={`absolute -bottom-0 ring-1 ring-blue-600 right-16 ${chatUserListVisible ? 'h-1/2' : 'h-12'}  w-80 rounded-t-2xl bg-blue-600`}>
                 <ChatHeader
                     chatUserListVisible={chatUserListVisible}
