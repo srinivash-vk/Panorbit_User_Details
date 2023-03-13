@@ -10,6 +10,7 @@ To run this project:
 
 `yarn start`
 
+# Page UI layout
 
 ![landing_page](https://user-images.githubusercontent.com/67652658/224636925-604d8b15-f928-4add-aee4-2310e237db56.png)
 
